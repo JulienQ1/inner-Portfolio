@@ -63,8 +63,8 @@ const Works = () => {
       <motion.div
       variants={textVariant()}
       >
-      <p className={styles.sectionSubText}>Projects</p>
-      <h2 className={styles.sectionHeadText}>Emg-Fullbody</h2>
+      <p className={styles.sectionSubText}>Projets</p>
+      <h2 className={styles.sectionHeadText}>Mes réalisations</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -72,8 +72,7 @@ const Works = () => {
       variants={fadeIn('', '', 0.1, 1)}
       className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      The following projects showcases my skills through real-world examples of my work. 
-      It consists of personal, workplace and academic projects.
+      Les projets suivants illustrent mes compétences à travers des exemples concrets de mon travail. Il s'agit de projets personnels, professionnels et universitaires.
       </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
