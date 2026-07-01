@@ -23,7 +23,7 @@ import python from './tech/python.png'
 
 
 
-import Esilv from './company/Esilv.png'
+import esilv from './company/esilv.png'
 import ift from './company/ift.png'
 import iim from './company/iim.png'
 
@@ -62,7 +62,7 @@ export {
   python,
   ift,
   anatomy,
-  Esilv,
+  esilv,
   iim,
   gb,
   sk,
