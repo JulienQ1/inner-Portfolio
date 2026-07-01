@@ -18,19 +18,21 @@ import reactjs from "./tech/reactjs.png";
 import arduino from "./tech/arduino.png";
 import kicad from "./tech/kicad.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/C.png";
 import python from './tech/python.png'
 
 
 
-
-
+import Esilv from './company/Esilv.png'
 import ift from './company/ift.png'
+import iim from './company/iim.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import anatomy from './anatomy.gif'
+import anatomy from './emg.gif'
+import gb from './gb.gif'
+import sk from './anatomy.gif'
 
 
 export {
@@ -60,5 +62,8 @@ export {
   python,
   ift,
   anatomy,
- 
+  Esilv,
+  iim,
+  gb,
+  sk,
 };
