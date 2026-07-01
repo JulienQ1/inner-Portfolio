@@ -117,7 +117,7 @@ import {
         {
       title: "ESILV",
       company_name: "Master of Science «Innovation & Creative Technology »",
-      icon: Esilv,
+      icon: esilv,
       iconBg: "#383E56",
       date: "Septembre 2023 - 2026",
       points: [
