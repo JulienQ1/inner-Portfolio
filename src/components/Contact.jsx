@@ -59,7 +59,7 @@ const Contact = () => {
     variants={slideIn('left', 'tween', 0.2, 1)}
     className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
     >
-    <p className={styles.sectionSubText}>Get in touch</p>
+    <p className={styles.sectionSubText}>Me contacter</p>
     <h3 className={styles.sectionHeadText}>Contact.</h3>
 
     <form
@@ -68,37 +68,37 @@ const Contact = () => {
     className='mt-12 flex flex-col gap-8'
     >
     <label className="flex flex-col">
-    <span className="text-white font-medium mb-4">Your Name</span>
+    <span className="text-white font-medium mb-4">Votre Nom</span>
     <input 
       type='text'
       name='name'
       value={form.name}
       onChange={handleChange}
-      placeholder="What's your name?"
+      placeholder="Quel est votre nom ?"
       className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg
       outlined-none border-none font-medium"
     />
     </label>
     <label className="flex flex-col">
-    <span className="text-white font-medium mb-4">Your Email</span>
+    <span className="text-white font-medium mb-4">Votre Email</span>
     <input 
       type='email'
       name='email'
       value={form.email}
       onChange={handleChange}
-      placeholder="What's your email?"
+      placeholder="Quel est votre email ?"
       className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg
       outlined-none border-none font-medium"
     />
     </label>
     <label className="flex flex-col">
-    <span className="text-white font-medium mb-4">Your Message</span>
+    <span className="text-white font-medium mb-4">Votre Message</span>
     <textarea
       rows='7' 
       name='message'
       value={form.message}
       onChange={handleChange}
-      placeholder="What do you want to say?"
+      placeholder="Quel est votre message ?"
       className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg
       outlined-none border-none font-medium"
     />
@@ -109,7 +109,7 @@ const Contact = () => {
     className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold
     shadow-md shadow-primary rounded-xl"
     >
-    {loading ? 'Sending...' : 'Send'}
+    {loading ? 'Envoi en cours...' : 'Envoyer'}
     </button>
     </form>
     </motion.div>
